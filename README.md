@@ -72,17 +72,22 @@ Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, statsmodels
 Development Environment: Jupyter Notebook
 
 ## 7. How to Run the Project
-1.  **Clone this GitHub repository:**
-    You will get the specific link from GitHub after you create your repository (e.g., `git clone https://github.com/YourGitHubUsername/Brystkreft.git`).
-    `git clone [Your Repository Link Here]`
-2.  **Navigate to the project directory:**
-    `cd Brystkreft`
-3.  **Install the required packages (recommended in a virtual environment):**
-    `pip install -r requirements.txt`
-4.  **Open Jupyter Notebook:**
-    `jupyter notebook`
-5.  **Navigate to and open the project notebook:**
-    Once Jupyter opens in your browser, find and click on `breast_cancer_prediction.ipynb` to open it.
+
+Clone this GitHub repository:
+You will get the specific link from GitHub after you create your repository. For this project, use:
+git clone https://github.com/Sahatfi/Breast-cancer-prediction.git
+
+Navigate to the project directory:
+cd Breast-cancer-prediction
+
+Install the required packages (recommended in a virtual environment):
+pip install -r requirements.txt
+
+Open Jupyter Notebook:
+jupyter notebook
+
+Navigate to and open the project notebook:
+Once Jupyter opens in your browser, find and click on breast_cancer_prediction.ipynb to open it.
     
 ## 8. Future Work
 Adjusting the classification threshold to optimize sensitivity based on clinical needs.
