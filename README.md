@@ -71,26 +71,31 @@ Language: Python/ basic SQL
 Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, statsmodels, duckdb
 Development Environment: Jupyter Notebook
 
-## 7. How to Run the Project
+## ## 7. How to Run the Project
+To get this project up and running on your local machine, follow these steps:
+
 1.  **Clone this GitHub repository:**
     ```bash
     git clone [https://github.com/Sahatfi/Breast-cancer-prediction.git](https://github.com/Sahatfi/Breast-cancer-prediction.git)
     ```
+
 2.  **Navigate to the project directory:**
     ```bash
-    cd Breast_cancer_prediction
+    cd Breast-cancer-prediction
     ```
+
 3.  **Create and activate the Conda environment:**
-    This project uses a Conda environment for dependency management. You can recreate the exact environment used for development with the provided `environment.yml` file.
+    This project uses a Conda environment to manage its dependencies.
     ```bash
     conda env create -f environment.yml
     conda activate breast_cancer_env
     ```
-    *Note: The environment name `breast_cancer_env` is defined in the `environment.yml` file.*
+
 4.  **Open Jupyter Notebook:**
     ```bash
     jupyter notebook
     ```
+
 5.  **Navigate to and open the project notebook:**
     Once Jupyter opens in your browser, find and click on `breast_cancer_prediction.ipynb` to open it.
     
