@@ -51,7 +51,7 @@ The model was rigorously evaluated on an independent test set to assess its abil
 Confusion Matrix (at default threshold of 0.5):
 [[100   7]
  [ 13  51]]
-ROC AUC Score: 0.946 (Excellent)
+ROC AUC Score: 0.955 (Excellent)
 Precision: 0.879 (Very Good)
 Sensitivity (Recall): 0.797 (Good)
 
@@ -60,7 +60,7 @@ Sensitivity (Recall): 0.797 (Good)
 
 Interpretation of Performance and Clinical Implications:
 
-The model demonstrates excellent overall discriminative power with a high ROC AUC of **0.946**. This confirms its ability to effectively distinguish between malignant and benign diagnoses across various thresholds.
+The model demonstrates excellent overall discriminative power with a high ROC AUC of **0.955**. This confirms its ability to effectively distinguish between malignant and benign diagnoses across various thresholds.
 
 However, the model's current sensitivity of 79.7% for detecting malignant cases is an area requiring further consideration. This means the model unfortunately misses approximately 20% of actual malignant cancer cases (false negatives). Given the severe clinical implications of a missed diagnosis, this is a critical metric to improve.
 
