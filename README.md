@@ -29,7 +29,7 @@ The dataset was loaded and cleaned, handling any missing values or inconsistenci
 Extensive EDA was performed to understand the distribution of features, identify potential outliers, and explore relationships between variables. Visualizations, including histograms, box plots, scatter plots, and correlation matrices, were used to gain insights into the data's characteristics and identify potential predictors of malignancy.
 
 ![Distribution of Concave Points for Cell Nuclei](images/concave_points.png)
-**Figure 2:** Distribution of cell nucleus extreme 'Concave Points'  Benign diagnoses compared to average nucleus concave points of malignant tumors.
+**Figure 2:** Distribution of cell nucleus extreme 'Concave Points' Benign diagnoses compared to average nucleus concave points of malignant tumors.
 
 #### Feature Engineering: 
 Several continuous diagnostic attributes were transformed into binary variables based on clinically relevant thresholds and observed distributions. This transformation proved to be highly effective in distinguishing between the two diagnostic outcomes and simplifying the model.
@@ -60,7 +60,7 @@ Sensitivity (Recall): 0.797 (Good)
 
 Interpretation of Performance and Clinical Implications:
 
-The model demonstrates excellent overall discriminative power with a high ROC AUC of 0.95. This confirms its ability to effectively distinguish between malignant and benign diagnoses across various thresholds.
+The model demonstrates excellent overall discriminative power with a high ROC AUC of **0.946**. This confirms its ability to effectively distinguish between malignant and benign diagnoses across various thresholds.
 
 However, the model's current sensitivity of 79.7% for detecting malignant cases is an area requiring further consideration. This means the model unfortunately misses approximately 20% of actual malignant cancer cases (false negatives). Given the severe clinical implications of a missed diagnosis, this is a critical metric to improve.
 
@@ -68,26 +68,31 @@ For a future production model, it would be necessary to investigate methods to i
 
 ## 6. Tools and Technologies
 Language: Python/ basic SQL
-Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, statsmodels
+Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, statsmodels, duckdb
 Development Environment: Jupyter Notebook
 
 ## 7. How to Run the Project
-
-Clone this GitHub repository:
-You will get the specific link from GitHub after you create your repository. For this project, use:
-git clone https://github.com/Sahatfi/Breast-cancer-prediction.git
-
-Navigate to the project directory:
-cd Breast-cancer-prediction
-
-Install the required packages (recommended in a virtual environment):
-pip install -r requirements.txt
-
-Open Jupyter Notebook:
-jupyter notebook
-
-Navigate to and open the project notebook:
-Once Jupyter opens in your browser, find and click on breast_cancer_prediction.ipynb to open it.
+1.  **Clone this GitHub repository:**
+    ```bash
+    git clone [https://github.com/Sahatfi/Breast-cancer-prediction.git](https://github.com/Sahatfi/Breast-cancer-prediction.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Breast_cancer_prediction
+    ```
+3.  **Create and activate the Conda environment:**
+    This project uses a Conda environment for dependency management. You can recreate the exact environment used for development with the provided `environment.yml` file.
+    ```bash
+    conda env create -f environment.yml
+    conda activate breast_cancer_env
+    ```
+    *Note: The environment name `breast_cancer_env` is defined in the `environment.yml` file.*
+4.  **Open Jupyter Notebook:**
+    ```bash
+    jupyter notebook
+    ```
+5.  **Navigate to and open the project notebook:**
+    Once Jupyter opens in your browser, find and click on `breast_cancer_prediction.ipynb` to open it.
     
 ## 8. Future Work
 Adjusting the classification threshold to optimize sensitivity based on clinical needs.
