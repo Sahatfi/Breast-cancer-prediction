@@ -11,9 +11,13 @@ This project utilizes the Wisconsin Breast Cancer Diagnostic (WDBC) dataset, whi
 The primary objectives of this project were to:
 
 Perform data preparation and feature engineering to transform raw data into suitable predictors for modeling.
+
 Build a logistic regression model for binary classification of breast masses.
+
 Thoroughly evaluate the model's performance on an unseen test dataset.
+
 Understand and interpret the model's predictions, including identifying key predictors and challenges such as quasi-perfect separation.
+
 Reflect on the model's clinical implications based on various performance metrics.
 
 ## 4. Methodology
@@ -71,7 +75,7 @@ Language: Python/ basic SQL
 Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn, statsmodels, duckdb
 Development Environment: Jupyter Notebook
 
-## ## 7. How to Run the Project
+## 7. How to Run the Project
 To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone this GitHub repository:**
