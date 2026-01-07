@@ -26,7 +26,8 @@ Hovedmålene med prosjektet var å:
 
 Prosjektet fulgte en standard arbeidsflyt innen maskinlæring, med særlig vekt på eksplorativ dataanalyse (EDA) og visualisering:
 ![Korrelasjonsvarmekart](images/varmekart.png)
-**Figur 1:** Korrelasjonsvarmekart for variabler i WDBC-datasettet.
+**Figur 1:** Korrelasjonsvarmekart for variabler i WDBC-datasettet. Variabelnavnene er beholdt på engelsk.
+
 
 #### Datapreparering: 
 
